@@ -52,7 +52,7 @@ export default class Calculator extends Component {
                         result = a + b
                         break
                     default:
-                        return 0
+                        this.clearMemory()
                 }
                 return result
             }
